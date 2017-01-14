@@ -5,6 +5,7 @@
 // @description  Making news less depressing!
 // @author       Frank M.G. Jørgensen
 // @match        http://*/*
+// @match        https://*/*
 // @grant        none
 // ==/UserScript==
 
@@ -14,12 +15,12 @@
     // Your code here...
     var replaceArray = [
         [/@realdonaldtrump/gi,  '@shitforbrains'],
+        [/Melania Trump/gi,  'Goldigia von Clownstick'],
         [/Donald J. Trump/gi,   'Farty McFuckface'],
         [/Donald Trump/gi,    'Fuckface von Clownstick'],
         [/President Trump/gi,          'President Lying McBastard'],
         [/Trump Tower/gi,  'Golden Shower Tower'],
         [/Trump/gi,            'von Clownstick'],
-        [/Melania Trump/gi,  'Goldigia von Clownstick'],
         // etc.
     ];
     var numTerms    = replaceArray.length;
