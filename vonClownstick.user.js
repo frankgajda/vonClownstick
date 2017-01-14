@@ -12,7 +12,6 @@
 (function() {
     'use strict';
 
-    // Your code here...
     var replaceArray = [
         [/@realdonaldtrump/gi,  '@shitforbrains'],
         [/Melania Trump/gi,  'Goldigia von Clownstick'],
