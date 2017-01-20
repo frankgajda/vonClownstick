@@ -6,6 +6,7 @@
 // @author       Frank M.G. Jørgensen
 // @match        http://*/*
 // @match        https://*/*
+// @exclude      https://*github.com*
 // @grant        none
 // ==/UserScript==
 
@@ -13,12 +14,12 @@
     'use strict';
 
     var replaceArray = [
-        [/@realdonaldtrump/gi,  '@shitforbrains'],
+        [/@realDonaldTrump/gi,  '@shitforbrains'],
         [/Melania Trump/gi,  'Goldigia von Clownstick'],
         [/Donald J. Trump/gi,   'Farty McFuckface'],
         [/Donald Trump/gi,    'Fuckface von Clownstick'],
         [/President Trump/gi,          'President Lying McBastard'],
-        [/Trump Tower/gi,  'Golden Shower Tower'],
+        [/Trump Tower/gi,  'Trump (Golden?) Shower Tower'],
         [/Trump/gi,            'von Clownstick'],
         // etc.
     ];
